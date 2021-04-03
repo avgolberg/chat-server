@@ -1,0 +1,15 @@
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\Chat Server.exe.config
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\Chat Server.exe
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\Chat Server.pdb
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.csprojAssemblyReference.cache
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat_Server.Form1.resources
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat_Server.Properties.Resources.resources
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.csproj.GenerateResource.cache
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.csproj.CoreCompileInputs.cache
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.exe
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.pdb
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\EntityFramework.dll
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\EntityFramework.xml
+C:\Users\Аленка\source\repos\Chat Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Аленка\source\repos\Chat Server\obj\Debug\Chat Server.csproj.CopyComplete
