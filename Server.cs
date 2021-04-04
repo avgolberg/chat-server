@@ -10,11 +10,11 @@ using System.Threading;
 
 namespace Chat_Server
 {
-    public partial class Form1 : Form
+    public partial class Server : Form
     {
         ClientContext db;
         static ServerObject server;
-        public Form1()
+        public Server()
         {
             InitializeComponent();
             try

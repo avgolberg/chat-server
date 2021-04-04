@@ -84,11 +84,12 @@ namespace Chat_Server
                         else
                         {
                             string code = Code();
-
-                            smtp.Credentials = new NetworkCredential("av.golberg@gmail.com", "gvkrnfttiyeavetr");
+                            string yourMail = "";
+                            string applicationPassword = "";
+                            smtp.Credentials = new NetworkCredential(yourMail, applicationPassword);
                             smtp.EnableSsl = true;
 
-                            MailAddress from = new MailAddress("av.golberg@gmail.com", "SMTP");
+                            MailAddress from = new MailAddress(yourMail, "SMTP");
                             MailAddress to = new MailAddress(email);
 
                             MailMessage m = new MailMessage(from, to);
@@ -131,7 +132,7 @@ namespace Chat_Server
                         message = DateTime.Now.ToLongTimeString() + " | " + userName + " в сети";
                         // посылаем сообщение о входе в чат всем подключенным пользователям
                         server.BroadcastMessage(message, this.Id);
-                        Form1.textBox1.Text += Environment.NewLine + message;
+                        Server.textBox1.Text += Environment.NewLine + message;
                         // в бесконечном цикле получаем сообщения от клиента
 
                         while (true)
@@ -140,13 +141,13 @@ namespace Chat_Server
                             {
                                  message = GetMessage();
                                 message = DateTime.Now.ToLongTimeString() + " | " + userName + ": " + message;
-                                Form1.textBox1.Text += Environment.NewLine + message;
+                                Server.textBox1.Text += Environment.NewLine + message;
                                 server.BroadcastMessage(message, this.Id);
                             }
                             catch
                             {
                                  message = DateTime.Now.ToLongTimeString() + " | " + userName + " вышел из сети";
-                                Form1.textBox1.Text += Environment.NewLine + message;
+                                Server.textBox1.Text += Environment.NewLine + message;
                                 server.BroadcastMessage(message, this.Id);
                                 break;
                             }

@@ -1,7 +1,7 @@
 ﻿
 namespace Chat_Server
 {
-    partial class Form1
+    partial class Server
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -29,7 +29,7 @@ namespace Chat_Server
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Server));
             textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
